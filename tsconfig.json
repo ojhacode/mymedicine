@@ -1,0 +1,42 @@
+{
+  "extends": "@react-native/typescript-config",
+  "compilerOptions": {
+    "ignoreDeprecations": "6.0",
+    "baseUrl": "src",
+    "paths": {
+      "@appContent":["AppContent"],
+      "@family/*":["family/*"],
+      "@stack":["stack/Stack"],
+      "@authStack/*":["stack/AuthStack/*"],
+      "@appStack/*":["stack/AppStack/*"],
+      "@nepaliTimePicker":["NepaliTimePicker"],
+      "@signIn":["SignIn"],
+      "@asset":["asset/*"],
+      "@data/*":["data/*"],
+      "@context/*": ["context/*"],
+      "@ui/*":["ui/*"],
+      "@utils/*": ["utils/*"],
+      "@type/*": ["type/*"],
+      "@components/*": ["components/*"],
+      "@screens/*": ["screens/*"],
+      "@hooks/*": ["hooks/*"],
+      "@protected/*":["screens/protected/*"],
+      "@calendar/*":["calendar/*"],
+      "@legal/*":["legal/*"],
+      "@db/*":["db/*"],
+      "@pull/*":["db/sync/pull/*"],
+      "@push/*":["db/sync/push/*"],
+      "@module/*":["module/*"],
+      "@migration/*":["migration/*"],
+      "@config/*":["config/*"],
+      "@firebase/*":["firebase/*"],
+      "@services/*":["services/*"],
+      "@constant/*":["constant/*"],
+      "@translation/*":["translation/*"],
+      "@core/*":["core/*"],
+      "@voice/*":["voice/*"],
+      "@logic/*":["logic/*"],
+      "@global/*":["global/*"]
+    }
+  }
+}
